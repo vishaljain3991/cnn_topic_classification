@@ -1,8 +1,9 @@
 # cnn_topic_classification
 ## Intro
-I wrote this classifier to classify Quora questions based on topics.
+I wrote this classifier to classify Quora questions based on topics (Techonlogy, Business, Design, Food, Books).
 Its inspired by [this](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/). I tweaked his code a bit to use pretrained wordvec.
-Also you can find the topicwise questions in data directory. Every run is assosiated with a graph that plots accuracies vs steps taken. To download Quora questions, I used [this](https://github.com/vishaljain3991/quora_crawl)
+Also you can find the topicwise questions in data directory. Every run is assosiated with a graph that plots accuracies vs steps taken. To download Quora questions, I used [this](https://github.com/vishaljain3991/quora_crawl).
+
 ## Requirements
 
 - Python 2
