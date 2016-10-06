@@ -102,11 +102,6 @@ def write_concat_vec(data_dir):
     word_index_pickle.close()
     # print concater.shape
 
-
-
-
-
-
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--data_dir', type=str, default='/home/hw/data',
